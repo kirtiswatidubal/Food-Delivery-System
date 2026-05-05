@@ -1,0 +1,59 @@
+.add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.add form {
+  width: 450px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Image Upload */
+.upload-preview {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+}
+
+/* Inputs */
+.add input,
+.add textarea,
+.add select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Category + Price */
+.add-category-price {
+  display: flex;
+  gap: 10px;
+}
+
+/* Button */
+.add-btn {
+  background: tomato;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .add-category-price {
+    flex-direction: column;
+  }
+}

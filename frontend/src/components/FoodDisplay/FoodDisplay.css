@@ -1,0 +1,17 @@
+
+.food-display {
+  width: 80%;              
+  margin: 0 auto;
+}
+
+
+.food-display h2 {
+  margin-bottom: 20px;
+}
+
+
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  gap: 40px;  
+}

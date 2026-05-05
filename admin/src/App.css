@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR (unchanged as you want) */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #1f1f2e;
+}
+
+/* MAIN FIX (THIS IS THE REAL FIX) */
+.main {
+  margin-left: 240px;
+  width: calc(100% - 240px);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* 🔥 CENTER FIX */
+
+  background: #f6f7fb;
+}

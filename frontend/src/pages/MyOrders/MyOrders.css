@@ -1,0 +1,72 @@
+.my-orders {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.my-orders h2 {
+  margin-bottom: 25px;
+}
+
+/* CONTAINER */
+.my-orders .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ORDER CARD */
+.my-orders-order {
+  display: grid;
+  grid-template-columns: 60px 2fr 1fr 1fr 1fr auto;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* IMAGE */
+.my-orders-order img {
+  width: 50px;
+}
+
+/* ITEMS TEXT */
+.order-items {
+  font-size: 14px;
+  color: #444;
+}
+
+/* AMOUNT */
+.order-amount {
+  font-weight: 500;
+}
+
+/* COUNT */
+.order-count {
+  font-size: 14px;
+}
+
+/* STATUS */
+.order-status {
+  font-size: 14px;
+}
+
+/* STATUS DOT */
+.status-dot {
+  height: 10px;
+  width: 10px;
+  background: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* BUTTON */
+.my-orders-order button {
+  background: #ffe1e1;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}

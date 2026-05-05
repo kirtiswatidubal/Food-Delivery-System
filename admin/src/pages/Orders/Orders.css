@@ -1,0 +1,50 @@
+
+
+.orders {
+  padding: 20px;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.order-left img {
+  width: 60px;
+}
+
+.order-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.order-items {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.order-address {
+  font-size: 14px;
+  color: #555;
+}
+
+.order-right {
+  text-align: right;
+}
+
+.order-right p {
+  margin: 5px 0;
+}
+
+select {
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
